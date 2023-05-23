@@ -1,34 +1,39 @@
 {
   "notes": [
     {
-      "id": 1,
-      "content": "HTML is easy",
-      "important": true
+      "content": "Wake up",
+      "important": false,
+      "id": 1
     },
     {
-      "id": 2,
-      "content": "Browser can execute only Javascript",
-      "important": false
+      "content": "Code",
+      "important": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "content": "GET and POST are the mostt important methods of HTTP protocol",
-      "important": true
+      "content": "dfdf",
+      "important": true,
+      "id": 3
     },
     {
-      "content": "css is hard",
+      "content": "",
       "important": false,
       "id": 4
     },
     {
-      "content": "dfdf",
+      "content": "",
       "important": false,
       "id": 5
     },
     {
-      "content": "Server programming is cool",
+      "content": "",
       "important": false,
       "id": 6
+    },
+    {
+      "content": "",
+      "important": false,
+      "id": 7
     }
   ]
 }
