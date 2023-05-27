@@ -1,5 +1,5 @@
 import { useState } from "react";
-import noteService from "../services/notes";
+import noteService from "../services/noteService";
 
 function NoteForm({ notes, setNotes }) {
   const [newNote, setNewNote] = useState("");
@@ -15,8 +15,8 @@ function NoteForm({ notes, setNotes }) {
 
     noteService
       .createNote(noteObject)
-      .then((response) => {
-        setNotes([...notes, response.data]);
+      .then((createdNote) => {
+        setNotes([...notes, createdNote]);
         setNewNote("");
       })
       .catch((error) => console.log(error));
