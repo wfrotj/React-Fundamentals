@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://notes-api-o28r.onrender.com/api/notes";
+const baseUrl = "https://api-notes-nwdd.onrender.com";
 
 function getNotes() {
   const request = axios.get(baseUrl);
